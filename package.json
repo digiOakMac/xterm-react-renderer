@@ -42,6 +42,6 @@
     "dev": "styleguidist server",
     "flow": "flow",
     "build": "babel src/renderer -d dist --copy-files",
-    "prepublishOnly": "yarn build"
+    "prepublishOnly": "npm build"
   }
 }
